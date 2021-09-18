@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'categoryscreen.dart';
 import 'homescreen.dart';
 
 void main() {
@@ -17,7 +15,7 @@ class DribbbleMockApp extends StatelessWidget {
       // theme: ThemeData(
       //   primarySwatch: Colors.blue,
       // ),
-      home: CategoryScreen(),
+      home: HomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
